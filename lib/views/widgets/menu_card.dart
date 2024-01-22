@@ -158,14 +158,6 @@ class _MenuCardState extends State<MenuCard> {
                                   style: TextStyle(
                                       color: constants.whiteTextColor),
                                 )),
-                            IconButton(
-                                icon: Icon(
-                                  size: 14,
-                                  Icons.add,
-                                  color: constants.whiteTextColor,
-                                ),
-                                enableFeedback: true,
-                                onPressed: _incrementQuantity),
                           ],
                         ),
                       ],
